@@ -1,0 +1,11 @@
+		<dict>
+			<key>name</key>
+			<string>text plain</string>
+			<key>scope</key>
+			<string>text.plain</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6a8187</string>
+			</dict>
+		</dict>
