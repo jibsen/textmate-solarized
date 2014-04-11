@@ -49,6 +49,7 @@ Contributors
 * [evanmoran](https://github.com/evanmoran)
 * [iristyle](https://github.com/iristyle)
 * [albertboada](https://github.com/albertboada)
+* [Zearin](https://github.com/Zearin)
 
 
 License
