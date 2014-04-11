@@ -6,6 +6,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6a8187</string>
+				<string>#6a8187</string><!-- nonstandard; ~cyan -->
 			</dict>
 		</dict>

@@ -6,6 +6,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2aa198</string><!-- cyan -->
+				<string>__CYAN__</string><!-- cyan -->
 			</dict>
 		</dict>

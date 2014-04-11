@@ -19,7 +19,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2aa198</string><!-- cyan -->
+				<string>__CYAN__</string><!-- cyan -->
 			</dict>
 		</dict>
 		<dict>
@@ -30,7 +30,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#268bd2</string><!-- blue -->
+				<string>__BLUE__</string><!-- blue -->
 			</dict>
 		</dict>
 		<dict>
@@ -43,7 +43,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#586E75</string><!-- base01 -->
+				<string>__BASE01__</string><!-- base01 -->
 			</dict>
 		</dict>
 		<dict>
@@ -56,7 +56,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#586E75</string><!-- base01 -->
+				<string>__BASE01__</string><!-- base01 -->
 			</dict>
 		</dict>
 		<dict>
@@ -67,7 +67,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DC322F</string>
+				<string>__RED__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -78,7 +78,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B58900</string><!-- yellow -->
+				<string>__YELLOW__</string><!-- yellow -->
 			</dict>
 		</dict>
 		<dict>
@@ -89,7 +89,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#859900</string><!-- green -->
+				<string>__GREEN__</string><!-- green -->
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +100,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2aa198</string><!-- cyan -->
+				<string>__CYAN__</string><!-- cyan -->
 			</dict>
 		</dict>
 		<dict>
@@ -111,7 +111,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c71c4</string><!-- violet -->
+				<string>__VIOLET__</string><!-- violet -->
 			</dict>
 		</dict>
 
@@ -123,7 +123,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6c71c4</string><!-- violet -->
+				<string>__VIOLET__</string><!-- violet -->
 			</dict>
 		</dict>
 
@@ -135,7 +135,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d33682</string><!-- magenta -->
+				<string>__MAGENTA__</string><!-- magenta -->
 			</dict>
 		</dict>
 
@@ -147,7 +147,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#839496</string><!-- base0 -->
+				<string>__BASE0__</string><!-- base0 -->
 			</dict>
 		</dict>
 
@@ -159,7 +159,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#839496</string><!-- base0 -->
+				<string>__BASE0__</string><!-- base0 -->
 			</dict>
 		</dict>
 
@@ -171,6 +171,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DC322F</string>
+				<string>__RED__</string>
 			</dict>
 		</dict>

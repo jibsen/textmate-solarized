@@ -6,7 +6,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#b58900</string><!-- yellow -->
+				<string>__YELLOW__</string><!-- yellow -->
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
@@ -21,11 +21,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string><!-- base2 -->
+				<string>__BASE2__</string><!-- base2 -->
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#dc322f</string><!-- red -->
+				<string>__RED__</string><!-- red -->
 			</dict>
 		</dict>
 		<dict>
@@ -36,11 +36,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string><!-- base2 -->
+				<string>__BASE2__</string><!-- base2 -->
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#cb4b16</string><!-- orange -->
+				<string>__ORANGE__</string><!-- orange -->
 			</dict>
 		</dict>
 		<dict>
@@ -51,7 +51,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eee8d5</string><!-- base2 -->
+				<string>__BASE2__</string><!-- base2 -->
 				<key>foreground</key>
 				<string>#219186</string><!--  (nonstandard) ~cyan -->
 			</dict>

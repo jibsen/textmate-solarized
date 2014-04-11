@@ -8,7 +8,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#586e75</string><!-- base01 -->
+				<string>__BASE01__</string><!-- base01 -->
 			</dict>
 		</dict>
 		<dict>
@@ -21,7 +21,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#859900</string><!-- green -->
+				<string>__GREEN__</string><!-- green -->
 			</dict>
 		</dict>
 		<dict>
@@ -32,7 +32,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cb4b16</string><!-- orange -->
+				<string>__ORANGE__</string><!-- orange -->
 			</dict>
 		</dict>
 		<dict>
@@ -43,6 +43,6 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b58900</string><!-- yellow -->
+				<string>__YELLOW__</string><!-- yellow -->
 			</dict>
 		</dict>
