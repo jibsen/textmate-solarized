@@ -1,32 +1,42 @@
 Solarized Colorscheme for TextMate
-=============================
+==================================
 
-See the [Solarized homepage](http://ethanschoonover.com/solarized) for screenshots, 
-details and colorscheme versions for Vim, Mutt, popular terminal emulators and 
-other applications.
+See the [Solarized homepage] for screenshots, details, and 
+colorscheme versions for Vim, Mutt, popular terminal emulators, 
+and other applications.
 
 
 Downloads
 ---------
 
-If you have come across this page via github please visit the main [Solarized homepage](http://ethanschoonover.com/solarized)
+If you have come across this page via GitHub, 
+please visit the [Solarized homepage].
 
 [Solarized homepage]:   http://ethanschoonover.com/solarized
 [Solarized repository]: https://github.com/altercation/solarized
 
+
 Contribute
----------
-
-The goal is to get as-close-as-possible to the rendering of the same file in Vim. If you would like to help, here's how to get involved.
-
+----------
+The goal is to get as-close-as-possible to the rendering of the same file in Vim. 
+If you would like to help, here's how to get involved:
 
 1. Fork this repo and checkout your own copy.
 2. Download the [sample documents](https://github.com/altercation/solarized/tree/master/utils/tests). 
-3. Checkout this guide to [TextMate theme development](http://manual.macromates.com/en/themes).
-4. Check the [issues](https://github.com/deplorableword/textmate-solarized/issues) to see what needs working on.
+3. Make your changes to files under `src/`
+   - Please change only one language per commit. (Changing both light & dark is okay.)
+   - Please specify colors using the `__«COLOR»__` convention seen throughout the files.
+     (This ensures color consistency with the official Solarized colors, as well as 
+     color consistency between different languages.)
+
+Here are a couple of useful resources:
+
+* [Guide to TextMate theme development](http://manual.macromates.com/en/themes).
+* [Issues](https://github.com/deplorableword/textmate-solarized/issues) lists what needs to be worked on.
+
 
 Contributors
----------
+------------
 * [deplorableword](https://github.com/deplorableword)
 * [fentie](https://github.com/fentie)
 * [bmthykm](https://github.com/bmthykm)
@@ -39,6 +49,7 @@ Contributors
 * [evanmoran](https://github.com/evanmoran)
 * [iristyle](https://github.com/iristyle)
 * [albertboada](https://github.com/albertboada)
+
 
 License
 -------
