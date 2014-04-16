@@ -8,7 +8,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__RED__</string><!-- red -->
+				<string>__RED__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -21,7 +21,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__YELLOW__</string><!-- yellow -->
+				<string>__YELLOW__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -34,7 +34,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__YELLOW__</string><!-- yellow -->
+				<string>__YELLOW__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -47,7 +47,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__ORANGE__</string><!-- orange -->
+				<string>__ORANGE__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -60,7 +60,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__RED__</string><!-- red -->
+				<string>__RED__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -73,7 +73,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__CYAN__</string><!-- cyan -->
+				<string>__CYAN__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -86,7 +86,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__YELLOW__</string><!-- yellow -->
+				<string>__YELLOW__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -99,7 +99,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__RED__</string><!-- red -->
+				<string>__RED__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,7 +112,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__CYAN__</string><!-- cyan -->
+				<string>__CYAN__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,7 +125,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__RED__</string><!-- red -->
+				<string>__RED__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +138,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__GREEN__</string><!-- green -->
+				<string>__GREEN__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,7 +151,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__ORANGE__</string><!-- orange -->
+				<string>__ORANGE__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,7 +164,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__CYAN__</string><!-- cyan -->
+				<string>__CYAN__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -188,6 +188,6 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>__CYAN__</string><!-- cyan -->
+				<string>__CYAN__</string>
 			</dict>
 		</dict>

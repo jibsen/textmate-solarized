@@ -19,9 +19,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__BASE1__</string><!-- base1 -->
+				<string>__BASE1__</string>
 				<key>foreground</key>
-				<string>__BASE1__</string><!-- base1 -->
+				<string>__BASE1__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -32,7 +32,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__RED__</string><!-- red -->
+				<string>__RED__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -43,9 +43,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__BASE0__</string><!-- base0 -->
+				<string>__BASE0__</string>
 				<key>foreground</key>
-				<string>__BASE0__</string><!-- base0 -->
+				<string>__BASE0__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -56,7 +56,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__YELLOW__</string><!-- yellow -->
+				<string>__YELLOW__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -67,9 +67,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__BASE00__</string><!-- base00 -->
+				<string>__BASE00__</string>
 				<key>foreground</key>
-				<string>__BASE00__</string><!-- base00 -->
+				<string>__BASE00__</string>
 			</dict>
 		</dict>
 		<dict>
@@ -80,6 +80,6 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__ORANGE__</string><!-- orange -->
+				<string>__ORANGE__</string>
 			</dict>
 		</dict>
