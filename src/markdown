@@ -6,9 +6,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>__YELLOW__</string><!-- (nonstandard) ~yellow -->
+				<string>__YELLOW__</string>
 				<key>foreground</key>
-				<string>#E0EDDD</string><!-- (nonstandard) ~base2, sort of -->
+				<string>__BASE2__</string>
 			</dict>
 		</dict>
 		<dict>

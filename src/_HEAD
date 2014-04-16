@@ -27,7 +27,7 @@
 				<key>background</key>
 				<string>__BASE03__</string>
 				<key>caret</key>
-				<string>#819090</string><!-- (nonstandard) ~base0 -->
+				<string>__BASE3__</string>
 				<key>foreground</key>
 				<string>__BASE0__</string>
 				<key>invisibles</key>
