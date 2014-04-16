@@ -99,8 +99,7 @@ concat ()
 {
     echo "Concatenating ‘${outfile}’..."
     
-    themestyle=$1
-    outfile=$2
+    outfile=$1
     
     if [[ $outfile = '' ]]; then
         echo "ERROR: no outfile to concat()"
@@ -109,7 +108,7 @@ concat ()
     
     for i in "${PARTS[@]}"
     do
-        infile="${DIRSRC}/${i}.${themestyle}"
+        infile="${DIRSRC}/${i}"
         cat "${infile}" >> "${outfile}"
     done
 }
@@ -120,28 +119,74 @@ concat ()
 #
 colorize ()
 {
-    filename=$1
+    style=$1
+    filename=$2
+    
+    
     
     echo "Colorizing ‘${filename}’..."
     
-    sed -i ''                          \
-        -e "s/__BASE03__/"$BASE03"/g"  \
-        -e "s/__BASE02__/"$BASE02"/g"  \
-        -e "s/__BASE01__/"$BASE01"/g"  \
-        -e "s/__BASE00__/"$BASE00"/g"  \
-        -e "s/__BASE0__/"$BASE0"/g"    \
-        -e "s/__BASE1__/"$BASE1"/g"    \
-        -e "s/__BASE2__/"$BASE2"/g"    \
-        -e "s/__BASE3__/"$BASE3"/g"    \
-        -e "s/__YELLOW__/"$YELLOW"/g"  \
-        -e "s/__ORANGE__/"$ORANGE"/g"  \
-        -e "s/__RED__/"$RED"/g"        \
-        -e "s/__MAGENTA__/"$MAGENTA"/g"\
-        -e "s/__VIOLET__/"$VIOLET"/g"  \
-        -e "s/__BLUE__/"$BLUE"/g"      \
-        -e "s/__CYAN__/"$CYAN"/g"      \
-        -e "s/__GREEN__/"$GREEN"/g"    \
-        -- "${filename}"
+    #   Solarized (dark) is the default color palette;
+    #   For (light), swap the four "base" colors by
+    #   "toggling" a leading zero for each of them.
+    case $style in
+
+        "dark")
+            STYLE='dark'
+            UUID='A4299D9B-1DE5-4BC4-87F6-A757E71B1597'
+            sed -i ''                          \
+                -e "s/__STYLE__/"$STYLE"/g"    \
+                -e "s/__BASE03__/"$BASE03"/g"  \
+                -e "s/__BASE02__/"$BASE02"/g"  \
+                -e "s/__BASE01__/"$BASE01"/g"  \
+                -e "s/__BASE00__/"$BASE00"/g"  \
+                -e "s/__BASE0__/"$BASE0"/g"    \
+                -e "s/__BASE1__/"$BASE1"/g"    \
+                -e "s/__BASE2__/"$BASE2"/g"    \
+                -e "s/__BASE3__/"$BASE3"/g"    \
+                -e "s/__YELLOW__/"$YELLOW"/g"  \
+                -e "s/__ORANGE__/"$ORANGE"/g"  \
+                -e "s/__RED__/"$RED"/g"        \
+                -e "s/__MAGENTA__/"$MAGENTA"/g"\
+                -e "s/__VIOLET__/"$VIOLET"/g"  \
+                -e "s/__BLUE__/"$BLUE"/g"      \
+                -e "s/__CYAN__/"$CYAN"/g"      \
+                -e "s/__GREEN__/"$GREEN"/g"    \
+                -e "s/__UUID__/"$UUID"/g"      \
+                -- "${filename}"
+            ;;
+
+        "light")
+            STYLE='light'
+            UUID='38E819D9-AE02-452F-9231-ECC3B204AFD7'
+            sed -i ''                          \
+                -e "s/__STYLE__/"$STYLE"/g"    \
+                -e "s/__BASE03__/"$BASE3"/g"   \
+                -e "s/__BASE02__/"$BASE2"/g"   \
+                -e "s/__BASE01__/"$BASE1"/g"   \
+                -e "s/__BASE00__/"$BASE0"/g"   \
+                -e "s/__BASE0__/"$BASE00"/g"   \
+                -e "s/__BASE1__/"$BASE01"/g"   \
+                -e "s/__BASE2__/"$BASE02"/g"   \
+                -e "s/__BASE3__/"$BASE03"/g"   \
+                -e "s/__YELLOW__/"$YELLOW"/g"  \
+                -e "s/__ORANGE__/"$ORANGE"/g"  \
+                -e "s/__RED__/"$RED"/g"        \
+                -e "s/__MAGENTA__/"$MAGENTA"/g"\
+                -e "s/__VIOLET__/"$VIOLET"/g"  \
+                -e "s/__BLUE__/"$BLUE"/g"      \
+                -e "s/__CYAN__/"$CYAN"/g"      \
+                -e "s/__GREEN__/"$GREEN"/g"    \
+                -e "s/__UUID__/"$UUID"/g"      \
+                -- "${filename}"
+            ;;
+        
+        *)
+            echo "ERROR in colorize()!"
+            echo "The first argument must be 'light' or 'dark'"
+            exit 1
+            ;;
+    esac
 }
 
 
@@ -154,8 +199,8 @@ run ()
     for style in "light" "dark"
     do
         outfile=$( getBuildFile "${DIRBUILD}" "${style}" )
-        concat "${style}" "${outfile}"
-        colorize "${outfile}"
+        concat "${outfile}"
+        colorize "${style}" "${outfile}"
     done
     
     echo "Done!" && exit 0
