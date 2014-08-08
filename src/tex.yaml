@@ -1,0 +1,90 @@
+- name: 'Tex: {}'
+  scope: punctuation.section.group.tex , punctuation.definition.arguments.begin.latex,
+    punctuation.definition.arguments.end.latex, punctuation.definition.arguments.latex
+  settings:
+    fontStyle: ''
+    foreground: __RED__
+
+- name: 'Tex: {text}'
+  scope: meta.group.braces.tex
+  settings:
+    fontStyle: ''
+    foreground: __YELLOW__
+
+- name: 'Tex: Other Math'
+  scope: string.other.math.tex
+  settings:
+    fontStyle: ''
+    foreground: __YELLOW__
+
+- name: 'Tex: {var}'
+  scope: variable.parameter.function.latex
+  settings:
+    fontStyle: ''
+    foreground: __ORANGE__
+
+- name: 'Tex: Math \\'
+  scope: punctuation.definition.constant.math.tex
+  settings:
+    fontStyle: ''
+    foreground: __RED__
+
+- name: 'Tex: Constant Math'
+  scope: text.tex.latex constant.other.math.tex, constant.other.general.math.tex,
+    constant.other.general.math.tex, constant.character.math.tex
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'Tex: Other Math String'
+  scope: string.other.math.tex
+  settings:
+    fontStyle: ''
+    foreground: __YELLOW__
+
+- name: 'Tex: $'
+  scope: punctuation.definition.string.begin.tex, punctuation.definition.string.end.tex
+  settings:
+    fontStyle: ''
+    foreground: __RED__
+
+- name: 'Tex: \label'
+  scope: keyword.control.label.latex, text.tex.latex constant.other.general.math.tex
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'Tex: \label { }'
+  scope: variable.parameter.definition.label.latex
+  settings:
+    fontStyle: ''
+    foreground: __RED__
+
+- name: 'Tex: Function'
+  scope: support.function.be.latex
+  settings:
+    fontStyle: ''
+    foreground: __GREEN__
+
+- name: 'Tex: Support Function Section'
+  scope: support.function.section.latex
+  settings:
+    fontStyle: ''
+    foreground: __ORANGE__
+
+- name: 'Tex: Support Function'
+  scope: support.function.general.tex
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'Tex: Comment'
+  scope: punctuation.definition.comment.tex, comment.line.percentage.tex
+  settings:
+    fontStyle: italic
+
+- name: 'Tex: Reference Label'
+  scope: keyword.control.ref.latex
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__

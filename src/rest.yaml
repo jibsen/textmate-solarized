@@ -1,0 +1,4 @@
+- name: reST raw
+  scope: text.restructuredtext markup.raw
+  settings:
+    foreground: __CYAN__

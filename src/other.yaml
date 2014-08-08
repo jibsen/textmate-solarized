@@ -1,0 +1,10 @@
+- name: 'Other: Removal'
+  scope: other.package.exclude, other.remove
+  settings:
+    fontStyle: ''
+    foreground: __RED__
+
+- name: 'Other: Add'
+  scope: other.add
+  settings:
+    foreground: __CYAN__

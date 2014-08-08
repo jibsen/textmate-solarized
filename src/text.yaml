@@ -1,0 +1,4 @@
+- name: text plain
+  scope: text.plain
+  settings:
+    foreground: __CYAN__

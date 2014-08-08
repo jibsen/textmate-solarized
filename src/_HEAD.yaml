@@ -1,0 +1,168 @@
+%YAML 1.1
+---
+name: Solarized (__STYLE__)
+semanticClass: solarized.__STYLE__
+
+gutterSettings:
+  background: __BASE02__
+  divider: __BASE02__
+  foreground: __BASE01__
+  selectionBackground: __BASE02__
+  selectionForeground: __BASE01__
+
+settings:
+- settings:
+    background: __BASE03__
+    caret: __BASE3__
+    foreground: __BASE0__
+    invisibles: __BASE02__
+    lineHighlight: __BASE02__
+    selection: __BASE02__
+
+- name: Comment
+  scope: comment
+  settings:
+    fontStyle: ''
+    foreground: __BASE01__
+
+- name: String
+  scope: string
+  settings:
+    foreground: __CYAN__
+
+- name: StringNumber
+  scope: string
+  settings:
+    foreground: __BASE01__
+
+- name: Regexp
+  scope: string.regexp
+  settings:
+    foreground: __RED__
+
+- name: Number
+  scope: constant.numeric
+  settings:
+    foreground: __MAGENTA__
+
+- name: Variable
+  scope: variable.language, variable.other
+  settings:
+    foreground: __BLUE__
+
+- name: Keyword
+  scope: keyword
+  settings:
+    foreground: __GREEN__
+
+- name: Storage
+  scope: storage
+  settings:
+    fontStyle: ''
+    foreground: __GREEN__
+
+- name: Class name
+  scope: entity.name.class, entity.name.type.class
+  settings:
+    foreground: __BLUE__
+
+- name: Function name
+  scope: entity.name.function
+  settings:
+    foreground: __BLUE__
+
+- name: Variable start
+  scope: punctuation.definition.variable
+  settings:
+    foreground: __GREEN__
+
+- name: Embedded code markers
+  scope: punctuation.section.embedded.begin, punctuation.section.embedded.end
+  settings:
+    foreground: __RED__
+
+- name: Built-in constant
+  scope: constant.language, meta.preprocessor
+  settings:
+    foreground: __YELLOW__
+
+- name: Support.construct
+  scope: support.function.construct, keyword.other.new
+  settings:
+    foreground: __RED__
+
+- name: User-defined constant
+  scope: constant.character, constant.other
+  settings:
+    foreground: __ORANGE__
+
+- name: Inherited class
+  scope: entity.other.inherited-class
+  settings: {}
+
+- name: Function argument
+  scope: variable.parameter
+  settings: {}
+
+- name: Tag name
+  scope: entity.name.tag
+  settings:
+    fontStyle: bold
+    foreground: __BLUE__
+
+- name: Tag start/end
+  scope: punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end
+  settings:
+    foreground: __BASE01__
+
+- name: Tag attribute
+  scope: entity.other.attribute-name
+  settings:
+    foreground: __BASE1__
+
+- name: Library function
+  scope: support.function
+  settings:
+    foreground: __BLUE__
+
+- name: Continuation
+  scope: punctuation.separator.continuation
+  settings:
+    foreground: __RED__
+
+- name: Library constant
+  scope: support.constant
+  settings: {}
+
+- name: Library class/type
+  scope: support.type, support.class
+  settings:
+    foreground: __GREEN__
+
+- name: Library Exception
+  scope: support.type.exception
+  settings:
+    foreground: __ORANGE__
+
+- name: Special
+  scope: keyword.other.special-method
+  settings:
+    foreground: __ORANGE__
+
+- name: Library variable
+  scope: support.other.variable
+  settings: {}
+
+- name: Invalid
+  scope: invalid
+  settings: {}
+
+- name: Quoted String
+  scope: string.quoted.double, string.quoted.single
+  settings:
+    foreground: __CYAN__
+
+- name: Quotes
+  scope: punctuation.definition.string.begin, punctuation.definition.string.end
+  settings:
+    foreground: __RED__

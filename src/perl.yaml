@@ -1,0 +1,26 @@
+- name: 'Perl: variables'
+  scope: punctuation.definition.variable.perl, variable.other.readwrite.global.perl,
+    variable.other.predefined.perl, keyword.operator.comparison.perl
+  settings:
+    foreground: __YELLOW__
+
+- name: 'Perl: functions'
+  scope: support.function.perl
+  settings:
+    foreground: __GREEN__
+
+- name: 'Perl: comments'
+  scope: comment.line.number-sign.perl
+  settings:
+    fontStyle: italic
+    foreground: __BASE01__
+
+- name: 'Perl: quotes'
+  scope: punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl
+  settings:
+    foreground: __CYAN__
+
+- name: 'Perl: \char'
+  scope: constant.character.escape.perl
+  settings:
+    foreground: __RED__

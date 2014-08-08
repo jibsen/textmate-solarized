@@ -1,0 +1,21 @@
+- name: 'Python: docstring'
+  scope: string.quoted.double.block.python
+  settings:
+    fontStyle: ''
+    foreground: __BASE01__
+
+- name: 'Python: storage'
+  scope: storage.type.class.python, storage.type.function.python, storage.modifier.global.python
+  settings:
+    fontStyle: ''
+    foreground: __GREEN__
+
+- name: 'Python: import'
+  scope: keyword.control.import.python, keyword.control.import.from.python
+  settings:
+    foreground: __ORANGE__
+
+- name: 'Python: Support.exception'
+  scope: support.type.exception.python
+  settings:
+    foreground: __YELLOW__

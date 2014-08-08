@@ -1,0 +1,48 @@
+- name: 'C: constant'
+  scope: constant.numeric.c
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'C: Meta Preprocessor'
+  scope: meta.preprocessor.c.include, meta.preprocessor.macro.c
+  settings:
+    fontStyle: ''
+    foreground: __ORANGE__
+
+- name: 'C: Keyword'
+  scope: keyword.control.import.define.c, keyword.control.import.include.c
+  settings:
+    fontStyle: ''
+    foreground: __ORANGE__
+
+- name: 'C: Function Preprocessor'
+  scope: entity.name.function.preprocessor.c
+  settings:
+    fontStyle: ''
+    foreground: __ORANGE__
+
+- name: 'C: include <something.c>'
+  scope: meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include
+    punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'C: Function'
+  scope: support.function.C99.c, support.function.any-method.c, entity.name.function.c
+  settings:
+    fontStyle: ''
+    foreground: __BASE01__
+
+- name: 'C: "'
+  scope: punctuation.definition.string.begin.c, punctuation.definition.string.end.c
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'C: Storage Type'
+  scope: storage.type.c
+  settings:
+    fontStyle: ''
+    foreground: __YELLOW__

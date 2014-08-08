@@ -1,0 +1,75 @@
+- name: 'HTML: Doctype'
+  scope: entity.name.tag.doctype.html, meta.tag.sgml.html, string.quoted.double.doctype.identifiers-and-DTDs.html
+  settings:
+    fontStyle: italic
+    foreground: __BASE1__
+
+- name: 'HTML: Comment Block'
+  scope: comment.block.html
+  settings:
+    fontStyle: italic
+    foreground: __BASE0__
+
+- name: 'HTML: Script'
+  scope: entity.name.tag.script.html
+  settings:
+    fontStyle: italic
+
+- name: 'HTML: Style'
+  scope: source.css.embedded.html string.quoted.double.html
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'HTML: Text'
+  scope: text.html.ruby
+  settings:
+    fontStyle: bold
+    foreground: __ORANGE__
+
+- name: 'HTML: ='
+  scope: text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic
+    meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html,
+    text.html.basic source.js.embedded.html, punctuation.separator.key-value.html
+  settings:
+    fontStyle: ''
+    foreground: __BASE00__
+
+- name: 'HTML: something='
+  scope: text.html.basic entity.other.attribute-name.html
+  settings:
+    foreground: __BASE00__
+
+- name: 'HTML: "'
+  scope: 'text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html,
+    punctuation.definition.string.begin.html, punctuation.definition.string.end.html '
+  settings:
+    fontStyle: ''
+    foreground: __CYAN__
+
+- name: 'HTML: <tag>'
+  scope: entity.name.tag.block.any.html
+  settings:
+    fontStyle: bold
+    foreground: __BLUE__
+
+- name: 'HTML: style'
+  scope: source.css.embedded.html entity.name.tag.style.html
+  settings:
+    fontStyle: italic
+
+- name: 'HTML: <style>'
+  scope: entity.name.tag.style.html
+  settings:
+    fontStyle: ''
+
+- name: 'HTML: {}'
+  scope: text.html.basic punctuation.section.property-list.css
+  settings:
+    fontStyle: ''
+
+- name: 'HTML: Embeddable'
+  scope: source.css.embedded.html, comment.block.html
+  settings:
+    fontStyle: italic
+    foreground: __BASE0__
