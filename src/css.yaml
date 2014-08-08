@@ -2,71 +2,71 @@
   scope: entity.name.tag.css, support.type.property-name.css, meta.property-name.css
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'CSS: @font-face'
   scope: source.css
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: 'CSS: Selector'
   scope: meta.selector.css
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'CSS: {}'
   scope: punctuation.section.property-list.css
   settings:
-    foreground: __VIOLET__
+    foreground: $violet
 
 - name: 'CSS: Numeric Value'
   scope: meta.property-value.css constant.numeric.css, keyword.other.unit.css,constant.other.color.rgb-value.css
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'CSS: Value'
   scope: meta.property-value.css
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'CSS: !Important'
   scope: keyword.other.important.css
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: 'CSS: Standard Value'
   scope: support.constant.color
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'CSS: Tag'
   scope: entity.name.tag.css
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'CSS: : ,'
   scope: punctuation.separator.key-value.css, punctuation.terminator.rule.css
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: CSS .class
   scope: entity.other.attribute-name.class.css
   settings:
     fontStyle: ''
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: CSS :pseudo
   scope: entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css
   settings:
     fontStyle: ''
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'CSS: #id'
   scope: entity.other.attribute-name.id.css
   settings:
     fontStyle: ''
-    foreground: __BLUE__
+    foreground: $blue

@@ -1,38 +1,38 @@
 - name: SublimeLinter Annotations
   scope: sublimelinter.notes
   settings:
-    background: __BASE2__
-    foreground: __BASE2__
+    background: $base2
+    foreground: $base2
 
 - name: SublimeLinter Error Outline
   scope: sublimelinter.outline.illegal
   settings:
-    background: __BASE1__
-    foreground: __BASE1__
+    background: $base1
+    foreground: $base1
 
 - name: SublimeLinter Error Underline
   scope: sublimelinter.underline.illegal
   settings:
-    background: __RED__
+    background: $red
 
 - name: SublimeLinter Warning Outline
   scope: sublimelinter.outline.warning
   settings:
-    background: __BASE0__
-    foreground: __BASE0__
+    background: $base0
+    foreground: $base0
 
 - name: SublimeLinter Warning Underline
   scope: sublimelinter.underline.warning
   settings:
-    background: __YELLOW__
+    background: $yellow
 
 - name: SublimeLinter Violation Outline
   scope: sublimelinter.outline.violation
   settings:
-    background: __BASE00__
-    foreground: __BASE00__
+    background: $base00
+    foreground: $base00
 
 - name: SublimeLinter Violation Underline
   scope: sublimelinter.underline.violation
   settings:
-    background: __ORANGE__
+    background: $orange

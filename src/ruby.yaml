@@ -2,98 +2,98 @@
   scope: punctuation.definition.variable.ruby
   settings:
     fontStyle: ''
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: 'Ruby: Function Name'
   scope: meta.function.method.with-arguments.ruby
   settings:
-    foreground: __BASE00__
+    foreground: $base00
 
 - name: 'Ruby: Variable'
   scope: variable.language.ruby
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'Ruby: Function'
   scope: entity.name.function.ruby
   settings:
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: 'Ruby: Keyword Control'
   scope: keyword.control.ruby, keyword.control.def.ruby
   settings:
     fontStyle: bold
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Ruby: Class'
   scope: keyword.control.class.ruby, meta.class.ruby
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Ruby: Class Name'
   scope: entity.name.type.class.ruby
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'Ruby: Keyword'
   scope: keyword.control.ruby
   settings:
     fontStyle: ''
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Ruby: Support Class'
   scope: support.class.ruby
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'Ruby: Special Method'
   scope: keyword.other.special-method.ruby
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Ruby: Constant'
   scope: constant.language.ruby, constant.numeric.ruby
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'Ruby: Constant Other'
   scope: variable.other.constant.ruby
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'Ruby: :symbol'
   scope: constant.other.symbol.ruby
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'Ruby: Punctuation Section '''''
   scope: punctuation.section.embedded.ruby, punctuation.definition.string.begin.ruby,
     punctuation.definition.string.end.ruby
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: 'Ruby: Special Method'
   scope: keyword.other.special-method.ruby
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'PHP: Include'
   scope: keyword.control.import.include.php
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'Ruby: erb ='
   scope: text.html.ruby meta.tag.inline.any.html
   settings:
     fontStyle: ''
-    foreground: __BASE0__
+    foreground: $base0
 
 - name: 'Ruby: erb ""'
   scope: text.html.ruby punctuation.definition.string.begin, text.html.ruby punctuation.definition.string.end
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan

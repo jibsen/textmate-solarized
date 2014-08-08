@@ -1,101 +1,101 @@
 %YAML 1.1
 ---
-name: Solarized (__STYLE__)
-uuid: __UUID__
-semanticClass: solarized.__STYLE__
+name: Solarized ($style)
+uuid: $uuid
+semanticClass: solarized.$style
 
 gutterSettings:
-  background: __BASE02__
-  divider: __BASE02__
-  foreground: __BASE01__
-  selectionBackground: __BASE02__
-  selectionForeground: __BASE01__
+  background: $base02
+  divider: $base02
+  foreground: $base01
+  selectionBackground: $base02
+  selectionForeground: $base01
 
 settings:
 - settings:
-    background: __BASE03__
-    caret: __BASE3__
-    foreground: __BASE0__
-    invisibles: __BASE02__
-    lineHighlight: __BASE02__
-    selection: __BASE02__
+    background: $base03
+    caret: $base3
+    foreground: $base0
+    invisibles: $base02
+    lineHighlight: $base02
+    selection: $base02
 
 - name: Comment
   scope: comment
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: String
   scope: string
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: StringNumber
   scope: string
   settings:
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: Regexp
   scope: string.regexp
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: Number
   scope: constant.numeric
   settings:
-    foreground: __MAGENTA__
+    foreground: $magenta
 
 - name: Variable
   scope: variable.language, variable.other
   settings:
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: Keyword
   scope: keyword
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: Storage
   scope: storage
   settings:
     fontStyle: ''
-    foreground: __GREEN__
+    foreground: $green
 
 - name: Class name
   scope: entity.name.class, entity.name.type.class
   settings:
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: Function name
   scope: entity.name.function
   settings:
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: Variable start
   scope: punctuation.definition.variable
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: Embedded code markers
   scope: punctuation.section.embedded.begin, punctuation.section.embedded.end
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: Built-in constant
   scope: constant.language, meta.preprocessor
   settings:
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: Support.construct
   scope: support.function.construct, keyword.other.new
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: User-defined constant
   scope: constant.character, constant.other
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: Inherited class
   scope: entity.other.inherited-class
@@ -109,27 +109,27 @@ settings:
   scope: entity.name.tag
   settings:
     fontStyle: bold
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: Tag start/end
   scope: punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end
   settings:
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: Tag attribute
   scope: entity.other.attribute-name
   settings:
-    foreground: __BASE1__
+    foreground: $base1
 
 - name: Library function
   scope: support.function
   settings:
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: Continuation
   scope: punctuation.separator.continuation
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: Library constant
   scope: support.constant
@@ -138,17 +138,17 @@ settings:
 - name: Library class/type
   scope: support.type, support.class
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: Library Exception
   scope: support.type.exception
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: Special
   scope: keyword.other.special-method
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: Library variable
   scope: support.other.variable
@@ -161,9 +161,9 @@ settings:
 - name: Quoted String
   scope: string.quoted.double, string.quoted.single
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: Quotes
   scope: punctuation.definition.string.begin, punctuation.definition.string.end
   settings:
-    foreground: __RED__
+    foreground: $red

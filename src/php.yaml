@@ -1,64 +1,64 @@
 - name: 'PHP: Quoted Single'
   scope: punctuation.definition.string.begin, punctuation.definition.string.end
   settings:
-    foreground: __BASE0__
+    foreground: $base0
 
 - name: 'PHP: Class Names'
   scope: support.class.php
   settings:
-    foreground: __BASE0__
+    foreground: $base0
 
 - name: 'PHP: []'
   scope: keyword.operator.index-start.php, keyword.operator.index-end.php
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: 'PHP: Array'
   scope: meta.array.php
   settings:
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'PHP: Array()'
   scope: meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'PHP: Array Construct'
   scope: support.function.construct.php
   settings:
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'PHP: Array Begin'
   scope: punctuation.definition.array.begin, punctuation.definition.array.end
   settings:
-    foreground: __RED__
+    foreground: $red
 
 - name: 'PHP: Numeric Constant'
   scope: constant.numeric.php
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'PHP: New'
   scope: keyword.other.new.php
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'PHP: ::'
   scope: keyword.operator.class
   settings:
     fontStyle: ''
-    foreground: __BASE0__
+    foreground: $base0
 
 - name: 'PHP: Other Property'
   scope: variable.other.property.php
   settings:
-    foreground: __BASE1__
+    foreground: $base1
 
 - name: 'PHP: Class'
   scope: storage.modifier.extends.php, storage.type.class.php, keyword.operator.class.php
   settings:
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'PHP: Class Function'
   settings: {}
@@ -66,47 +66,47 @@
 - name: 'PHP: Semicolon'
   scope: punctuation.terminator.expression.php
   settings:
-    foreground: __BASE0__
+    foreground: $base0
 
 - name: 'PHP: Inherited Class'
   scope: meta.other.inherited-class.php
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'PHP: Storage Type'
   scope: storage.type.php
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'PHP: Function'
   scope: entity.name.function.php
   settings:
-    foreground: __BASE1__
+    foreground: $base1
 
 - name: 'PHP: Function Construct'
   scope: support.function.construct.php
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'PHP: Function Call'
   scope: entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php,
     meta.function-call.object.php
   settings:
-    foreground: __BASE0__
+    foreground: $base0
 
 - name: 'PHP: Comment'
   scope: keyword.other.phpdoc
   settings:
     fontStyle: ''
-    foreground: __BASE1__
+    foreground: $base1
 
 - name: 'PHP: Source Emebedded'
   scope: source.php.embedded.block.html
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'PHP: Storage Type Function'
   scope: storage.type.function.php
   settings:
-    foreground: __ORANGE__
+    foreground: $orange

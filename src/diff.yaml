@@ -1,26 +1,26 @@
 - name: 'diff: header'
   scope: meta.diff, meta.diff.header
   settings:
-    background: __YELLOW__
+    background: $yellow
     fontStyle: italic
-    foreground: __BASE2__
+    foreground: $base2
 
 - name: 'diff: deleted'
   scope: markup.deleted
   settings:
-    background: __BASE2__
+    background: $base2
     fontStyle: ''
-    foreground: __RED__
+    foreground: $red
 
 - name: 'diff: changed'
   scope: markup.changed
   settings:
-    background: __BASE2__
+    background: $base2
     fontStyle: ''
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'diff: inserted'
   scope: markup.inserted
   settings:
-    background: __BASE2__
-    foreground: __CYAN__
+    background: $base2
+    foreground: $cyan

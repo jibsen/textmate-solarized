@@ -2,9 +2,9 @@
   scope: other.package.exclude, other.remove
   settings:
     fontStyle: ''
-    foreground: __RED__
+    foreground: $red
 
 - name: 'Other: Add'
   scope: other.add
   settings:
-    foreground: __CYAN__
+    foreground: $cyan

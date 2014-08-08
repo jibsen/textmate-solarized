@@ -2,25 +2,25 @@
   scope: punctuation.definition.variable.perl, variable.other.readwrite.global.perl,
     variable.other.predefined.perl, keyword.operator.comparison.perl
   settings:
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'Perl: functions'
   scope: support.function.perl
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Perl: comments'
   scope: comment.line.number-sign.perl
   settings:
     fontStyle: italic
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'Perl: quotes'
   scope: punctuation.definition.string.begin.perl, punctuation.definition.string.end.perl
   settings:
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'Perl: \char'
   scope: constant.character.escape.perl
   settings:
-    foreground: __RED__
+    foreground: $red

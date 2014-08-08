@@ -2,47 +2,47 @@
   scope: constant.numeric.c
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'C: Meta Preprocessor'
   scope: meta.preprocessor.c.include, meta.preprocessor.macro.c
   settings:
     fontStyle: ''
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'C: Keyword'
   scope: keyword.control.import.define.c, keyword.control.import.include.c
   settings:
     fontStyle: ''
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'C: Function Preprocessor'
   scope: entity.name.function.preprocessor.c
   settings:
     fontStyle: ''
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'C: include <something.c>'
   scope: meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include
     punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'C: Function'
   scope: support.function.C99.c, support.function.any-method.c, entity.name.function.c
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'C: "'
   scope: punctuation.definition.string.begin.c, punctuation.definition.string.end.c
   settings:
     fontStyle: ''
-    foreground: __CYAN__
+    foreground: $cyan
 
 - name: 'C: Storage Type'
   scope: storage.type.c
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow

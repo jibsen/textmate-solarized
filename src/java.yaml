@@ -2,28 +2,28 @@
   scope: keyword.other.import.java
   settings:
     fontStyle: ''
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'Java: meta-import'
   scope: storage.modifier.import.java
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'Java: Class'
   scope: meta.class.java storage.modifier.java
   settings:
     fontStyle: ''
-    foreground: __YELLOW__
+    foreground: $yellow
 
 - name: 'Java: /* comment */'
   scope: source.java comment.block
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'Java: /* @param */'
   scope: comment.block meta.documentation.tag.param.javadoc keyword.other.documentation.param.javadoc
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01

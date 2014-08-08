@@ -1,42 +1,42 @@
 - name: 'Shell: builtin'
   scope: support.function.builtin.shell
   settings:
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Shell: variable'
   scope: variable.other.normal.shell
   settings:
-    foreground: __ORANGE__
+    foreground: $orange
 
 - name: 'Shell: DOT_FILES'
   scope: source.shell
   settings:
     fontStyle: ''
-    foreground: __BLUE__
+    foreground: $blue
 
 - name: 'Shell: meta scope in loop'
   scope: meta.scope.for-in-loop.shell, variable.other.loop.shell
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'Shell: ""'
   scope: punctuation.definition.string.end.shell, punctuation.definition.string.begin.shell
   settings:
     fontStyle: ''
-    foreground: __GREEN__
+    foreground: $green
 
 - name: 'Shell: Meta Block'
   scope: meta.scope.case-block.shell, meta.scope.case-body.shell
   settings:
     fontStyle: ''
-    foreground: __BASE01__
+    foreground: $base01
 
 - name: 'Shell: []'
   scope: punctuation.definition.logical-expression.shell
   settings:
     fontStyle: ''
-    foreground: __RED__
+    foreground: $red
 
 - name: 'Shell: Comment'
   scope: comment.line.number-sign.shell
