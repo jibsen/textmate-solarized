@@ -24,8 +24,8 @@ If you would like to help, here's how to get involved:
 1. Fork this repo and checkout your own copy.
 2. Download the [sample documents](https://github.com/altercation/solarized/tree/master/utils/tests). 
 3. Make your changes to files under `src/`
-   - Please change only one language per commit. (Changing both light & dark is okay.)
-   - Please specify colors using the `__«COLOR»__` convention seen throughout the files.
+   - Please change only one language per commit.
+   - Please specify colors using the `$color` convention seen throughout the files.
      (This ensures color consistency with the official Solarized colors, as well as 
      color consistency between different languages.)
 
