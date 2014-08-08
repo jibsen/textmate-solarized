@@ -1,6 +1,7 @@
 %YAML 1.1
 ---
 name: Solarized (__STYLE__)
+uuid: __UUID__
 semanticClass: solarized.__STYLE__
 
 gutterSettings:
