@@ -1,0 +1,22 @@
+%YAML 1.1
+---
+# Dictionary for generating textmate-solarized light theme
+# (based on http://ethanschoonover.com/solarized)
+style: light
+uuid: 38E819D9-AE02-452F-9231-ECC3B204AFD7
+base3: '#002B36'
+base2: '#073642'
+base1: '#586E75'
+base0: '#657B83'
+base00: '#839496'
+base01: '#93A1A1'
+base02: '#EEE8D5'
+base03: '#FDF6E3'
+yellow: '#B58900'
+orange: '#CB4B16'
+red: '#DC322F'
+magenta: '#D33682'
+violet: '#6C71C4'
+blue: '#268BD2'
+cyan: '#2AA198'
+green: '#859900'
